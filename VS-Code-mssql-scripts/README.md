@@ -6,9 +6,11 @@ You just need to right click on some Server, Table, View, Procedure or another o
 
 It can be useful for anyone who develops and administrates MS SQL Server databases and writes queries, procedures, functions, creates tables and many other SQL commands.
 
-The extension needs to be installed with [SQL Server (mssql)](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql).
+By installing `MSSQL Scripts and Utilities` the [SQL Server (mssql)](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql) extension will be installed automatically.
 
-![Demo of Extension](/images/demo.gif)
+`SQL Server (mssql)` extension helps you connect to your MS SQL Server and gives you another tools and options to configure, develop and execute queries.
+
+![Demo of Extension](/demo.gif)
 
 ## Table of Contents
 ***
@@ -162,8 +164,9 @@ List of all available scripts:
 *** 
 
 - You need to have `VS Code Installed`.
-- Install the official MS SQL Server extension to connect to your MS SQL Server -> [SQL Server (mssql)](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql).
-- and of course this extension (`MSSQL Scripts`).
+- This extension works with the official MS SQL Server extension -> [SQL Server (mssql)](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql).
+- By installing `MSSQL Scripts and Utilities` the `SQL Server (mssql)` extension will be installed automatically.
+- If you have `SQL Server (mssql)` installed then only `MSSQL Scripts and Utilities` will be installed.
 
 
 ## How to use
@@ -180,7 +183,7 @@ List of all available scripts:
         4. You can select the extension and read the overview features if you want.  
         ![Extension Search](/extension-overview.png) 
         5. Pres `Install` button and you are ready.
-
+        6. By installing `MSSQL Scripts and Utilities` the [SQL Server (mssql)](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql) extension will be installed automatically.
 2. Restart of VS Code may be needed.  
 3. After installation you are ready to use it.
 4. First you need to configure your MSSQL Connection. You can read more about how in the [MSSQL Extension Documentation](https://github.com/microsoft/vscode-mssql/wiki/manage-connection-profiles)
@@ -194,39 +197,39 @@ List of all available scripts:
 
 ## Gallery 
 
-![Demo of Extension](/images/Columns.png)
+![Demo of Columns Scripts](/Gallery/Columns.png)
 ***
-![Demo of Extension](/images/Database%20Mail.png)
+![Demo of Database Mails Scripts](/Gallery/Database%20Mail.png)
 ***
-![Demo of Extension](/images/Database.png)
+![Demo of Database Scripts](/Gallery/Database.png)
 ***
-![Demo of Extension](/images/Design%20new%20table.png)
+![Demo of Design New Table Feature](/Gallery/Design%20new%20table.png)
 ***
-![Demo of Extension](/images/Functions.png)
+![Demo of Functions Scripts](/Gallery/Functions.png)
 ***
-![Demo of Extension](/images/Helper%20Procedures.png)
+![Demo of Helper Procedures Scripts](/Gallery/Helper%20Procedures.png)
 ***
-![Demo of Extension](/images/Monitoring.png)
+![Demo of Monitoring Scripts](/Gallery/Monitoring.png)
 ***
-![Demo of Extension](/images/Performance%20Tuning.png)
+![Demo of Performance Tuning Scripts](/Gallery/Performance%20Tuning.png)
 ***
-![Demo of Extension](/images/ScriptAs.png)
+![Demo of Script As Scripts](/Gallery/ScriptAs.png)
 ***
-![Demo of Extension](/images/Select.png)
+![Demo of Select Scripts](/Gallery/Select.png)
 ***
-![Demo of Extension](/images/Server.png)
+![Demo of Server Scripts](/Gallery/Server.png)
 ***
-![Demo of Extension](/images/Stored%20Procedures.png)
+![Demo of Stored Procedures Scripts](/Gallery/Stored%20Procedures.png)
 ***
-![Demo of Extension](/images/Sys.objects.png)
+![Demo of Sys.Objects Scripts](/Gallery/Sys.objects.png)
 ***
-![Demo of Extension](/images/Table.png)
+![Demo of Table Scripts](/Gallery/Table.png)
 ***
-![Demo of Extension](/images/Tasks.png)
+![Demo of Tasks Scripts](/Gallery/Tasks.png)
 ***
-![Demo of Extension](/images/Utility.png)
+![Demo of Utility Scripts](/Gallery/Utility.png)
 ***
-![Demo of Extension](/images/Views.png)
+![Demo of Views Scripts](/Gallery/Views.png)
 
 ## Known Issues
 
@@ -234,7 +237,11 @@ Currently there are no known issues.
 
 ## Release Notes
 
-### 0.0.1
+### 0.3.0
+
+Documentation update 
+
+### 0.2.0
 
 First release of extension
     
